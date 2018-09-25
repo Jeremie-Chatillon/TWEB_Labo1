@@ -37,10 +37,6 @@ body {
 #unknow {
   height: 100px;
 
-
-  /*
-  border-radius: 50%;
-  */
   border: 1px  solid #888;
 }
 
@@ -55,7 +51,7 @@ body {
 }
 
 .doMagic{
-  /*visibility: hidden;*/
+  visibility: hidden;
 
 }
 
