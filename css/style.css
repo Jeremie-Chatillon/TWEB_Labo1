@@ -1,0 +1,61 @@
+body {
+  background-color: #ffffff;
+}
+
+.posts{
+  
+
+  width: 600px;
+  height: 300px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  /*text-align: center;*/
+  padding: 20px;
+
+  display: flex;
+
+  
+  background-image: repeating-radial-gradient(circle at top, #3366ff, #66ff66, #ff33cc);
+
+  box-shadow: 5px 5px 8px #ff33cc, 10px 10px 8px #66ff66, 15px 15px 8px #3366ff
+
+}
+
+.myBorder{
+  width: 15%;
+  height: 100%;
+
+  position: inherit;
+  text-align: center;
+  
+}
+
+#unknow {
+  height: 100px;
+
+
+  /*
+  border-radius: 50%;
+  */
+  border: 1px  solid #888;
+}
+
+.text{
+  width: 75%;
+  height: 100%;
+  left: 20%;
+
+  position: inherit;
+
+  text-align: justify;
+}
+
+.doMagic{
+  /*visibility: hidden;*/
+
+}
+
