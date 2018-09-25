@@ -1,5 +1,5 @@
 let i = true;
-let timer = 1;
+let timer = 15;
 const congratulations = '<br>You did it fine. Congratulations'
 const noCSS = 'Ohhhh noooo, what did you do???? CSS disaperad. You see? Wasn\'t it better before';
 const withCSS = 'This post is relating about how important to have a nice webPage. I can say a lot of bullshit, but the better way of realise it is to test it... So let try. </br><br>However, you have to find the buton to disable it ;D </br>I\'m sure you can do dat easily.';
@@ -13,7 +13,7 @@ function doMagic() {
 
     clearInterval(x);
 
-    document.getElementById('timer').innerHTML = "<br>Too Late:S";
+    document.getElementById('timer').innerHTML = "<br>Too Late:S";  /// ça passe pas :()
       
     if(i == true){
       for ( i=0; i<document.styleSheets.length; i++) 
